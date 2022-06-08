@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Emilie</title>
+</head>
+<body>
+	<section>
+		<h2>LISTES</h2>
+		<div>
+			<h3>Liste 1</h3>
+			<ul>
+				<li>Lundi</li>
+				<li>Mardi</li>
+				<li>Mercredi</li>
+				<li>Judi</li>
+				<li>Vendredi</li>
+				<li>Samedi</li>
+				<li>Dimanche</li>
+			</ul>
+		</div>
+		<div>	
+		<h3>Liste 2</h3>
+			<li>Salade</li>
+			<ul style="list-style-type: circle">
+				<li>Salade basique.</li>
+				<li>Salade César.</li>
+				<li>Salade composée.</li>
+				<li>Salade d'endives.</li>
+				<li>Salade de lentilles.</li>
+				<li>Salade de pâtes.</li>
+				<li>Salade de pommes de terre</li>
+			</ul>
+			<li>Fruits</li>
+			<ul style="list-style-type: circle">
+				<li>Les fruits à noyau</li>
+				<ul style="list-style-type: square;">
+					<li>prune</li>
+					<li>pêche</li>
+					<li>cerise</li>
+					<li>abricot</li>
+				</ul>
+				<li>Les fruits à pépin</li>
+				<ul style="list-style-type: square">
+					<li></li>
+					<li>pomme</li>
+					<li>poire</li>
+					<li>raisin</li>
+					<li>coing</li>
+				</ul>
+				<li>Les baies et fruits rouges</li>
+				<ul style="list-style-type: square">
+					<li>myrtille</li>
+					<li>groseille</li>
+					<li>cassis</li>
+				</ul>
+				<li>Les agrumes</li>
+				<ul style="list-style-type: square">
+					<li>citron</li>
+					<li>pamplemousse</li>
+					<li>orange</li>
+					<li>clémentine</li>
+				</ul>
+				<li>Les fruits à coque</li>
+				<ul style="list-style-type: square">
+					<li>noix</li>
+					<li>amande</li>
+					<li>châtaigne</li>
+					<li>noisette</li>
+				</ul>	
+			</ul>
+		</div>
+		<div>	
+			<h3>Liste 3</h3>
+			<ol>
+				<li>Abricot.</li>
+				<li>Acérola (cerise des antilles</li>
+				<li>Ananas.</li>
+				<li>Avocat.</li>
+				<li>Baies de sureau.</li>
+				<li>Banane.</li>
+				<li>Bleuets.</li>
+				<li>Canneberges</li>
+			</ol>
+		</div>
+	</section>
+	<section>
+		<h2>TABLEAUX</h3>
+		<aside>
+			<h3>Tableau 1</h3>
+			<table style="border-collapse: collapse;" border="1" width="800px" border-collapse="collapse">
+				<tr>
+					<td>A</td>
+					<td>Z</td>
+					<td>S</td>
+					<td>G</td>
+					<td>Q</td>
+				</tr>
+				<tr>
+					<td>R</td>
+					<td>B</td>
+					<td>Q</td>
+					<td>A</td>
+					<td>F</td>
+				</tr>
+				<tr>
+					<td>N</td>
+					<td>K</td>
+					<td>L</td>
+					<td>U</td>
+					<td>I</td>
+				</tr>
+				<tr>
+					<td>E</td>
+					<td>H</td>
+					<td>Z</td>
+					<td>X</td>
+					<td>8</td>
+				</tr>
+			</table>
+		</aside>
+		<aside>
+			<h3>Tableau 2</h3>
+			<table style="border-collapse: collapse;"  border="1" width="800">
+				<tr align="center">
+					<td colspan="2">A</td>
+					<td>Z</td>
+					<td>S</td>
+					<td>G</td>
+					<td>Q</td>
+				</tr>
+				<tr align="center">
+					<td>R</td>
+					<td>U</td>
+					<td rowspan="2">B</td>
+					<td>Q</td>
+					<td>A</td>
+					<td>F</td>
+				</tr>
+				<tr align="center">
+					<td>G</td>
+					<td>8</td>
+					<td>C</td>
+					<td rowspan="2">G</td>
+					<td>1</td>
+				</tr>
+				<tr align="center">
+					<td rowspan="3">M</td>
+					<td>D</td>
+					<td>Z</td>
+					<td>B</td>
+					<td>A</td>
+				</tr>
+				<tr align="center">
+					<td>K</td>
+					<td>K</td>
+					<td colspan="3">7</td>
+				</tr>
+				<tr align="center">
+					<td>I</td>
+					<td>H</td>
+					<td>Z</td>
+					<td>X</td>
+					<td>8</td>
+				</tr>
+			</table>
+		</aside>
+	</section>
+	<section style="width: 600px;">
+		<h2 text-align="center"><b>Mon formulaire</b></h2>
+		<form style="background-color: #cfe2f3;">
+			<p> <b>Coordonnées</b></p>
+			<div>
+				<label for="nom">Nom</label>
+				<input style="background-color: #434343; type="text" name="nom">
+				<label for="prenom">Prénom</label>
+				<input style="background-color: #434343; type="text" name="prenom">
+			</div>
+			<div>
+				<label for="Je désire poursuivre la formation">Je désire poursuivre la formation</label>
+				<input type="checkbox" name="Je désire poursuivre la formation">
+			</div>
+			<div>
+				<label for="Ma cohorte">Ma cohorte</label>
+				<label for="Ref Dig">Ref Dig</label>
+				<input type="radio" name="Ma cohorte" value="Ref Dig">
+				<label for="Dev Web">Dev Web</label>
+				<input type="radio" name="Ma cohorte" value="Dev Web">
+			</div>
+			<div>
+				<label for="Mon apprenant favoris">Mon apprenant favoris</label>
+				<select style="background-color: #434343"; name="Mon apprenant favoris"> 
+					<optgroup>
+					<option value=""></option>
+					<option value="Djemifer">Djemifer</option>
+					<option value="Caroche">Caroche</option>
+					<option value="Albert">Albert</option>
+					<option value="Christela">Christrella</option>
+					<option value="Jelly">Jelly</option>
+					<option value="Charlaine">Charlaine</option>
+					<option value="Jesse">Jesse</option>
+					<option value="Eric">Eric</option>
+					<option value="Celine">Celine</option>
+					<option value="Wesley">Wesley</option>
+					<option value="Mercia">Mercia</option>
+					<option value="Elodie">Elodie</option>
+					<option value="Alex">Alex</option>
+					<option value="Fred">Fred</option>
+					<option value="Margaret">Margaret</option>
+					<option value="Isabelle">Isabelle</option>
+					<option value="Collard">Collard</option>
+					<option value="Synalie">Synalie</option>
+					<option value="Emilie">Emilie</option>
+					</optgroup>
+				</select>
+			</div>
+			<div>
+				<p><b>J'élimine</b></p>
+				<label for="Choisissez plusieurs">Choisissez plusieurs (minimum 4)</label>
+			</div>	
+			<div>
+				<input type="checkbox">Celine     
+				<input type="checkbox">Eric
+				<input type="checkbox">Isabelle
+				<input type="checkbox">Margaret
+				<input type="checkbox">Alex
+				<input type="checkbox">Christela
+			</div>
+			<div>
+				<p><b>Mon mot de fin</b></p>
+				<label for="Un petit mot">Un petit mot pour votre coach</label>
+				<br><textarea style="background-color: #434343" name="mot de fin" id="Un petit mot" cols="50" rows="10"></textarea>
+				<Span> <input style="background-color: #0b5394;" type="submit" value="Envoyer"> <input style="background-color: #0b5394;" type="reset" value="Annuler"></Span>
+			</div>
+		</form>
+	</section>
+
+</body>
+</html>
